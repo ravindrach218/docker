@@ -1,2 +1,2 @@
-# dockerapp
-Project source code for ci - cd 
+# CI/CD pipelining using circle-ci integration tool # 
+
