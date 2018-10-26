@@ -1,5 +1,33 @@
 
 # Quick 5 min CI/CD pipelining using circle-ci with example
+
+
+## Tested Infrastructure
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l"><b>Platform</b></th>
+    <th class="tg-yw4l"><b>Number of Instance</b></th>
+    <th class="tg-yw4l"><b>Reading Time</b></th>
+    
+  </tr>
+  <tr>
+    <td class="tg-yw4l"><b> Play with Docker</b></td>
+    <td class="tg-yw4l"><b>1</b></td>
+    <td class="tg-yw4l"><b>5 min</b></td>
+    
+  </tr>
+  
+</table>
+
+## Pre-requisite
+
+- Create an account with [DockerHub](https://hub.docker.com)
+- Open [PWD](https://labs.play-with-docker.com/) Platform on your browser 
+- Click on **Add New Instance** on the left side of the screen to bring up Alpine OS instance on the right side
+- circle-ci and github account 
+
+## Explanation
 # why docker ??
 # Problem Statement: CI Pipelining Without Docker 
 1. For the purpose of virtualization, we uses virtual machine technology. This technology actually reduces concentration risk when deploy in the right configurations. You can always achieve more failures using fewer x physical machines and hosting more than x virtual machines that are networked to watch each other and take over in the event of partner machines failure.
@@ -26,6 +54,7 @@
 5. Since Docker works on prem, in the cloud or virtual environment and supports both Linux and Windows, enterprises no longer have to deal with inconsistencies between different environments types. Perhaps one of the most widely known benefits of the Docker CaaS platform
 
 
+# use PWD
 
 ![ play-with-docker- PWD](https://github.com/sangam14/dockerapp1/blob/master/Screenshot%202018-10-25%20at%2010.48.55%20PM.png)
 
