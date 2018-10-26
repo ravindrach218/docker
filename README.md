@@ -1,4 +1,4 @@
-# quick 5 min CI/CD pipelining using circle-ci with example
+# Quick 5 min CI/CD pipelining using circle-ci with example
 ![ play-with-docker- PWD](https://github.com/sangam14/dockerapp1/blob/master/Screenshot%202018-10-25%20at%2010.48.55%20PM.png)
 
 
