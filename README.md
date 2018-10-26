@@ -1,6 +1,6 @@
 
 # Quick 5 min CI/CD pipelining using circle-ci with example
-# why docker 
+# why docker ??
 # Problem Statement: Ci Pipelining Without Docker 
 1. For the purpose of virtualization, we uses virtual machine technology. This technology actually reduces concentration risk when deploy in the right configurations. You can always achieve more failures using fewer x physical machines and hosting more than x virtual machines that are networked to watch each other and take over in the event of partner machines failure.
 
