@@ -165,8 +165,6 @@ https://hub.docker.com/r/sangam14/dockerapp
 
 see its deployed
 
-# Maintained by: Sangam biradar - smbiradar14@gmail.com -www.codexplus.in 
-
 
 it help you to understand some docker commands  
 
@@ -208,3 +206,12 @@ services:
   redis:
     image: redis:3.2.0
 ```
+
+## Where to get help: https://circleci.com/docs/
+## Where to file issues: https://github.com/sangam14/dockerapp1 
+
+## Maintained by:sangam biradar smbiradar14@gmail.com
+
+
+## Supported architectures: (more info)
+amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x, windows-amd64
