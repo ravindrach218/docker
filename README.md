@@ -111,7 +111,7 @@ see its deployed
 # Maintained by: Sangam biradar - smbiradar14@gmail.com -www.codexplus.in 
 
 
-it help you to understand some docker file 
+it help you to understand some docker commands  
 
 dockerfile: https://github.com/sangam14/dockerapp1/blob/master/Dockerfile
 ```
