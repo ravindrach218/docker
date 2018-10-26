@@ -1,4 +1,32 @@
+
 # Quick 5 min CI/CD pipelining using circle-ci with example
+# why docker 
+# Problem Statement: Ci Pipelining Without Docker 
+1. For the purpose of virtualization, we uses virtual machine technology. This technology actually reduces concentration risk when deploy in the right configurations. You can always achieve more failures using fewer x physical machines and hosting more than x virtual machines that are networked to watch each other and take over in the event of partner machines failure.
+
+2. Another drawback of virtual machine is licensing cost. Virtual machine technology imposes a performance penalty from running an additional layer about the physical hardware. Also virtual machine technology hardware that both virtual machine hypervisor and the guest operating system support. To overcome all these problems Docker is the best solution.
+
+3. current CI/CD solutions follow multi-tiered environments approach - development, test, staging and production. Each of these environments are managed independently of each other.
+
+4. Hence, each of these environments may have different configurations different library versions or even different Operating Systems.
+
+![without docker](https://user-images.githubusercontent.com/21982562/47330291-52a7cd00-d695-11e8-8129-1cd48fc2009c.png)
+
+5. This leads to the popular problem known as “it works on my machine” syndrome where an application that works on one environment stops working on some other due to the above-mentioned problem.
+
+    so lets see the solution for it using docker 
+# Solution To Problem Statement: Using Docker 
+
+![ci with docker](https://user-images.githubusercontent.com/21982562/47330766-0fe6f480-d697-11e8-9c4e-bd2290beae15.png)
+
+1. Continuous integration and continuous deployment has become one of the most common use cases of Docker early adopters. 
+2. CI/CD merges development with testing, allowing developers to build code collaboratively, submit it the master branch, and checked for issues. This allows developers to not only build their code, but also test their code in any environment type and as often as possible to catch bugs early in the applications development lifecycle. 
+3. Since Docker can integrate with tools like Jenkins and GitHub, developers can submit code in GitHub, test the code and automatically trigger a build using Jenkins, and once the image is complete, images can be added to Docker registries.
+4. This streamlines the process, saves time on build and set up processes, all while allowing developers to run tests in parallel and automate them so that they can continue to work on other projects while tests are being run. 
+5. Since Docker works on prem, in the cloud or virtual environment and supports both Linux and Windows, enterprises no longer have to deal with inconsistencies between different environments types. Perhaps one of the most widely known benefits of the Docker CaaS platform
+
+
+
 ![ play-with-docker- PWD](https://github.com/sangam14/dockerapp1/blob/master/Screenshot%202018-10-25%20at%2010.48.55%20PM.png)
 
 
