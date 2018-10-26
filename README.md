@@ -77,7 +77,7 @@ so after runing circleci job sucessfully it will automatically deployed on docke
 
 login to the circl-ci account https://circleci.com using github 
 
-select project which you want to deploye 
+select project which you want to deploy 
 
 ![add_project](https://github.com/sangam14/dockerapp1/blob/master/Screenshot%202018-10-26%20at%207.49.53%20AM.png)
 
