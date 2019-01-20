@@ -1,4 +1,4 @@
-# 5 Minutes Guide to CI/CD pipelining using Docker & Circle-CI
+# Quick 5 Minutes Guide to CI/CD pipelining using Docker & Circle-CI
 
 
 ## Tested Infrastructure
